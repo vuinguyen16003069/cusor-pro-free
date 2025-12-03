@@ -40,28 +40,38 @@ Mở Cursor với tài khoản Pro
 **→ Xong!** Từ giờ mở Cursor là Pro vĩnh viễn.
 
 
-## 🔧 Cách 2 – Tự build từ source (Muốn an tâm 10000%)
-### 1. Cài đặt
+Cách 2 – TỰ BUILD TỪ SOURCE (An toàn tuyệt đối 10000% – Khuyên dùng nếu bạn cẩn thận)
 
-Python **3.11+**
-Git
-
-### 2. Clone và chạy source
-Bashgit clone https://github.com/yeongpin/cursor-free-vip.git
+git clone https://github.com/yeongpin/cursor-free-vip.git
 cd cursor-free-vip
 python -m venv venv
-# Windows
-venv\Scripts\activate
-# macOS/Linux
-# source venv/bin/activate
+venv\Scripts\activate          # Windows
 pip install -r requirements.txt
 python main.py
-## Khi chạy xong sẽ mở GUI giống bản build sẵn.
-## 💡 Mẹo hữu ích 2025
 
-Mỗi lần mở tool → **tự reset MachineID + tạo tài khoản mới**, Cursor không bao giờ phát hiện.
-Có tùy chọn **Auto-start with Cursor** → double-click là mở Cursor Pro.
-Hỗ trợ **backup/restore config** → đổi máy vẫn xài được.
+BẮT BUỘC: Cài Cursor bản chính chủ trước (chọn đúng bản User)
+
+Link tải Cursor mới nhất (12/2025):
+→ https://cursor.com/download → chọn Windows (x64) (User)
+Hoặc link trực tiếp luôn sống:
+→ https://download.cursor.sh/windows/x64/user/Cursor%20User%20Setup%200.48.1.exe
+
+Cài vào đường dẫn mặc định → mở thử 1 lần → đóng lại.
+
+Cách dùng hàng ngày (10–15 giây)
+1. Mở tool
+2. Nhấn 1 → Reset Machine ID
+3. Nhấn 2 → Register with Custom Email
+4. Đợi 15 giây → Cursor tự mở → đã là Pro vĩnh viễn
+
+Fix lỗi phổ biến 2025
+- Lỗi “Không tìm thấy workbench.desktop.main.js” → đã fix từ v1.11.03 nếu dùng đúng bản User Setup
+- Nếu vẫn lỗi → chạy tool với quyền Administrator 1 lần
+
+Mẹo mới nhất (12/2025)
+- Dùng tùy chọn 5 hoặc 6 nếu muốn giữ tài khoản Google/GitHub thật mà vẫn Pro
+- Nhấn 7 → Disable Cursor Auto-Update (rất quan trọng)
+- Backup thư mục C:\Users\TênBạn\OneDrive\Documents\.cursor-free-vip để đổi máy vẫn xài được
 
 
 ## 🔗 Link chính thức (Nên lưu lại)
